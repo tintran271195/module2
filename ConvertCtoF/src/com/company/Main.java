@@ -23,7 +23,7 @@ public class Main {
                     System.out.println("Fahrenheit to Celsius : " + celsiusToFahrenheit(fahrenheit));
                     break;
                 case 2:
-                    System.out.println1("Enter the Celsius");
+                    System.out.println("Enter the Celsius");
                     celcius = input.nextDouble();
                     System.out.println("Celsius to Fahrenheit : " + fahrenheitToCelsius(celcius));
                     break;
