@@ -1,2 +1,5 @@
-package com.tintran.demo;public interface VolumeShape {
+package com.tintran.demo;
+
+public interface VolumeShape {
+    double getVolume();
 }
