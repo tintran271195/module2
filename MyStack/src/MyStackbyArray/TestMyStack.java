@@ -1,6 +1,8 @@
+package MyStackbyArray;
+
 public class TestMyStack {
     public static void main(String[] args) {
-        MyStack<Integer> test = new MyStack<Integer>();
+        MyStackByArray<Integer> test = new MyStackByArray<Integer>();
         test.push(5);
         test.push(15);
         test.push(25);

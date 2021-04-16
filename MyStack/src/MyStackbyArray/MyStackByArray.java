@@ -1,12 +1,11 @@
-import java.util.Deque;
-import java.util.Stack;
+package MyStackbyArray;
 
-public class MyStack<E> {
+public class MyStackByArray<E> {
     public static final int DEFAULT_CAPACITY = 10;
     private int size;
     private E[] elements;
 
-    public MyStack() {
+    public MyStackByArray() {
         elements = (E[]) new Object[DEFAULT_CAPACITY];
     }
 
