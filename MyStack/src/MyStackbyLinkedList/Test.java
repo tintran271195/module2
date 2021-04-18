@@ -10,7 +10,7 @@ public class Test {
         test.push(4);
         test.push(7);
 
-        test.peek();test.peek();
+        test.printStack();
         System.out.println("********************");
         System.out.println(test.search(7));
     }

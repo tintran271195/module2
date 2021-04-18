@@ -1,17 +1,17 @@
 package MyStackbyLinkedList;
 
 
-public class MyStackByLinkedList {
+public class MyStackByLinkedList<E> {
     private Node head;
     private int size = 0;
 
 
-    public MyStackByLinkedList(Object data) {
+    public MyStackByLinkedList(E data) {
         head = new Node(data);
     }
 
 
-    public void push(Object data) {
+    public void push(E data) {
 
             Node temp = head;
             for (int i = 0; i < size; i++) {
@@ -49,7 +49,7 @@ public class MyStackByLinkedList {
         }
     }
 
-    public int search(Object data) {
+    public int search(E data) {
         Node temp = head;
         for(int i = 0; i < size + 1  ; i++){
             if (temp.data ==data){

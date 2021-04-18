@@ -2,16 +2,16 @@ package QueueByLinkedList;
 
 import MyStackbyLinkedList.Node;
 
-public class QueueByLinkedList {
+public class QueueByLinkedList<E> {
 
     private Node head;
     private int size;
 
-    public QueueByLinkedList(Object data){
+    public QueueByLinkedList(E data){
         head = new Node(data);
     }
 
-    public void push(Object data){
+    public void push(E data){
         Node temp = head;
         head = new Node(data);
         head.next = temp;
@@ -41,7 +41,7 @@ public class QueueByLinkedList {
             temp = temp.next;
         }
     }
-    public void search(Object data){
+    public void search(E data){
         Node temp = head;
         for (int i = 0; i < size + 1; i++) {
             if ( temp.data == data){
