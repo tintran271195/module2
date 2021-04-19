@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyStack.iml" filepath="$PROJECT_DIR$/MyStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExerciseStackAndQueue.iml" filepath="$PROJECT_DIR$/ExerciseStackAndQueue.iml" />
     </modules>
   </component>
 </project>
